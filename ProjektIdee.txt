@@ -1,1 +1,36 @@
-jkasbsdslkjan
+Tetris Attack
+
+MainView 
+		eigenes Spielfeld || Score || Gegner Spielfeld 
+
+		Gamefield	   GridLayout 10x20---> Stein = Panel---> wird gefärbt
+		
+		JDialog für Win/Lose
+		
+		Timer für Speed
+
+		
+Gameplay                                          
+- 7 Figuren a 4 Blöcke jeder eigene Farben
+- 10x20 Feld			                   
+- Score Jede Linie 1 Punkt mit Anzeige    	   
+								//- OPtional nächsten STein anzeigen
+
+- Alle 10 Punkte speed erhöhen
+-Steuerung   left/right = move   up/down = rotieren  space = drop
+
+Multiplayeraspekte
+- Testen alle 5 Punkte eine Line zum Gegner mit einer Lücke (unten einfügen)
+	Alle Punkte evtl Speed erhöhen
+	Alle paar Punkte Blöcke rüberschicken
+
+- Testen 50/50 Display vom Gegner 
+- Score zwischen die beiden GamePanels
+-
+
+
+Grafiken
+- Grafiken mit JPanel
+-pastell matschige farben
+- Win/Lose Dialog              
+
