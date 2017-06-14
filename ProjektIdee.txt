@@ -1,14 +1,34 @@
 Tetris Attack
 
-MainView 
+MainView JFrame -->JPanel --> Gamefiled 
 		eigenes Spielfeld || Score || Gegner Spielfeld 
 
 		Gamefield	   GridLayout 10x20---> Stein = Panel---> wird gefärbt
-		
-		JDialog für Win/Lose
-		
-		Timer für Speed
 
+							-->STein im Array mit Koordinaten
+		
+		JDialog für Win/Lose(eigene Klasses)
+
+
+
+
+		
+			Controller
+				Timer für Speed
+				evtl Netzwerkshit
+				Logik für Steine
+					Boardcontroller
+
+Model
+		Blockclass
+
+		Tetrissteine (Figuren)  Funktion für Random
+ 
+		Speed 
+		Score
+		Level
+		
+		
 		
 Gameplay                                          
 - 7 Figuren a 4 Blöcke jeder eigene Farben
